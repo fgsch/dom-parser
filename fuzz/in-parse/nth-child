@@ -1,0 +1,1 @@
+li:nth-child(odd), li:nth-child(2n + 2), li:nth-child(-n+3), li:nth-last-child(n)

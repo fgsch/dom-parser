@@ -1,0 +1,30 @@
+[package]
+name = "dom-parser"
+authors = ["Federico G. Schwindt <fgsch@lodoss.net>"]
+description = "HTML DOM parsing, CSS selector queries, and tree traversal, built on html5ever"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+repository = "https://github.com/fgsch/dom-parser"
+readme = "README.md"
+documentation = "https://docs.rs/dom-parser"
+keywords = ["html", "dom", "parser", "css", "selectors"]
+categories = ["parser-implementations", "web-programming"]
+
+[dependencies]
+html5ever = "0.40.1"
+
+[dev-dependencies]
+criterion = "0.8.2"
+
+[[bench]]
+name = "dom_operations"
+harness = false
+
+[lints.rust]
+missing_docs = "deny"
+
+[lints.clippy]
+missing_errors_doc = "deny"
+missing_panics_doc = "deny"

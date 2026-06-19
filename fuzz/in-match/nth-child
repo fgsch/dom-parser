@@ -1,0 +1,3 @@
+li:nth-child(odd), li:nth-child(2n + 2), li:nth-child(-n+3), li:nth-last-child(2)
+---HTML---
+<ol><li>One</li><li>Two</li><li>Three</li><li>Four</li><li>Five</li></ol>

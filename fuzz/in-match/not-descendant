@@ -1,0 +1,3 @@
+main :not(:not(* * *))
+---HTML---
+<main><section><article><p><span>Text</span></p></article></section></main>

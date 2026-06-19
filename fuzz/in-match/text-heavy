@@ -1,0 +1,3 @@
+p ~ article
+---HTML---
+<main>leading text <span>inline</span> trailing text <p>paragraph</p> more text <article id="marker">done</article></main>

@@ -1,0 +1,3 @@
+[lang|='']
+---HTML---
+<main><article id="empty" lang=""></article><article id="hyphen" lang="-x"></article><article id="ordinary" lang="en"></article><article id="missing"></article></main>

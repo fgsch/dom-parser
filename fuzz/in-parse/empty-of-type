@@ -1,0 +1,1 @@
+article:empty, p:only-of-type, section:first-of-type, article:nth-of-type(2n), article:nth-last-of-type(odd)

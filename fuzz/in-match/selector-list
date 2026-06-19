@@ -1,0 +1,3 @@
+article, aside, main > section, [data-kind='news' i]
+---HTML---
+<main><section><article data-kind="NEWS">News</article><aside>Aside</aside></section></main>

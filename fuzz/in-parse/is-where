@@ -1,0 +1,1 @@
+:is(article.featured, aside[data-kind='note' i]) > :where(h2, p.summary)

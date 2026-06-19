@@ -1,0 +1,3 @@
+p:empty, article:first-of-type, article:nth-of-type(2n), article:nth-last-of-type(2), p:only-of-type
+---HTML---
+<main><p></p><p> </p><p>&#12;</p><p>&#13;</p><article>One</article><section>Aside</section><article>Two</article><article>Three</article></main><aside><p><!-- empty --></p></aside>

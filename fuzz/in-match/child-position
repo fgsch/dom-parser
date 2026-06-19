@@ -1,0 +1,3 @@
+main > :first-child, main > :last-child, aside > :only-child
+---HTML---
+<main>text<article>First</article><!-- ignored --><article>Second</article><section>Third</section></main><aside><p>Only</p></aside>

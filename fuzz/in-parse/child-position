@@ -1,0 +1,1 @@
+main > :first-child + :not(:last-child) ~ :only-child
